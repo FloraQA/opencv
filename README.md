@@ -2,7 +2,10 @@
 
 ### OpenCV.js Modifications
 
-Check out [opencv.js](./platforms/js/opencv.js/README.md) \[[npm](https://www.npmjs.com/package/@mjyc/opencv.js)\] and [opencv_wasm.js](./platforms/js/opencv_wasm.js/README.md) \[[npm](https://www.npmjs.com/package/@mjyc/opencv_wasm.js)\] for modifications I made to OpenCV.js.
+Exposed [solvePnP](https://docs.opencv.org/3.4.5/d9/d0c/group__calib3d.html#ga549c2075fac14829ff4a58bc931c033d) and [projectPoints](https://docs.opencv.org/3.4.5/d9/d0c/group__calib3d.html#ga1019495a2c8d1743ed5cc23fa0daff8c) methods in [calib3d](https://docs.opencv.org/3.4.5/d9/d0c/group__calib3d.html) module to OpenCV.js.
+See [opencv.js README](./platforms/js/opencv.js/README.md)/[npm](https://www.npmjs.com/package/@mjyc/opencv.js) or [opencv_wasm.js README](./platforms/js/opencv_wasm.js/README.md)/[npm](https://www.npmjs.com/package/@mjyc/opencv_wasm.js) details.
+
+**Demo**: https://008olz2wmn.codesandbox.io/
 
 ### Resources
 
